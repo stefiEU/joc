@@ -5,3 +5,5 @@ if oe == 1:
 else:
 	print ("Ai aterizat in Barcelona, un oras calduros nu numai la propriu, ci si la figurat. Oamenii de aici sunt foarte prietenosi. Pacat ca nu-i poti cunoaste... de fapt, e alegerea ta daca vrei sa-i cunosti sau nu. Te vezi cu oamenii (1) sau te izolezi (2)?")
 
+print('BOOM! A explodat planeta! PA!')
+        break

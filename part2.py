@@ -17,8 +17,15 @@ if optiune == 1:
     else:
         print('BOOM! A explodat planeta')
         break
-elif optiune == 2:
-    print('Ai ales sa te intorci in Europa')
-
 else:
-    print('Optiune invalida')
+    print('Ai ales sa te intorci in Europa')
+    oe = int(input("Ai ajuns in Europa, Ollie! Sper sa-ti placa aici. Te-ai obisnuit cu alegerile? Esti pus in fata uneia noi: mergi in Brasov (1) sau in Barcelona (2)?"))
+
+    if oe == 1:
+	    print("Ai aterizat in Brasov, unul dintre cele mai frumoase orase din Romania.")
+        print('BOOM! A explodat planeta')
+        break
+    else:
+	    print ("Ai aterizat in Barcelona, un oras calduros nu numai la propriu, ci si la figurat. Oamenii de aici sunt foarte prietenosi. Pacat ca nu-i poti cunoaste... de fapt, e alegerea ta daca vrei sa-i cunosti sau nu.")
+        print('BOOM! A explodat planeta')
+        break
